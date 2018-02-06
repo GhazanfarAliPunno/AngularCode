@@ -20,5 +20,34 @@
     </ul>
   </div>
 </nav>
-
-<app-buttons></app-buttons>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <form>
+        <div class="form-group">
+          <label for="Fruit Name">Fruit Name</label>
+          <app-text-box></app-text-box>
+        </div>
+        <div class="form-gorup">
+          <label for="Fruit Quantity">Quantity</label>
+          <app-text-box></app-text-box>
+        </div>
+        <div class="form-group">
+          <app-buttons></app-buttons>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table cellPadding="5">
+        <th>Fruits Name</th>
+        <th>Quantity</th>
+        <tr>
+          <td>{{fruit}}</td>
+          <td>2</td>
+        </tr>
+      </table> 
+    </div>
+  </div>
+</div>

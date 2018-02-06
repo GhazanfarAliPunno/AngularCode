@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TextBoxComponent } from './text-box/text-box.component';
 import { ButtonsComponent } from './buttons/buttons.component';
-
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,8 @@ import { ButtonsComponent } from './buttons/buttons.component';
     ButtonsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
     
   ],
   providers: [],
